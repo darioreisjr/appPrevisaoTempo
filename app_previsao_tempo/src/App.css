@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+.search{
+  background-color: brown;
+  padding: 12px;
+  text-align: center;
+}
+
+.search h2 {
+  color: aliceblue;
+  padding: 20px;
+}
+
+.search input[type=text] {
+  width: 80%;
+  height: 40px;
+  padding-left: 16px;
+  outline: none;
+}
+
