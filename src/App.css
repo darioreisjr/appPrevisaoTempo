@@ -20,5 +20,17 @@
   height: 40px;
   padding-left: 16px;
   outline: none;
+  border: none;
+}
+
+.search input[type=submit] {
+  width: 15%;
+  height: 40px;
+  background-color: #ffc403;
+  border: none;
+  text-transform: uppercase;
+  color: brown;
+  font-weight: 600;
+  cursor: pointer;
 }
 
