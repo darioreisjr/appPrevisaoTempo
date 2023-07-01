@@ -16,7 +16,8 @@
 }
 
 .search input[type=text] {
-  width: 80%;
+  width: 70%;
+  max-width: 700px;
   height: 40px;
   padding-left: 16px;
   outline: none;
@@ -24,7 +25,8 @@
 }
 
 .search input[type=submit] {
-  width: 15%;
+  width: 20%;
+  max-width: 100px;
   height: 40px;
   background-color: #ffc403;
   border: none;
@@ -32,5 +34,44 @@
   color: brown;
   font-weight: 600;
   cursor: pointer;
+  font-size: 0.9rem;
+  padding: 3px;
+}
+
+.containerCidade{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 8px auto;
+  background-color: rgba(165, 42, 42, 0.322);
+  width: 30%;
+  min-width: 320px;
+}
+
+.containerCidade p {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.containerItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containerItem h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.searchPage {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  color: brown;
+  font-weight: 300;
 }
 
